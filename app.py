@@ -24,7 +24,7 @@ def set_background(image_file):
     """
     st.markdown(style, unsafe_allow_html=True)
     
-set_background('static/changed-baackground.png')
+set_background('static/background.png')
 
 st.markdown("<h1 style='text-align: center;'>Breast Cancer Classification</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: left;'>Please upload an image of histhopathology WSI</h5>", unsafe_allow_html=True) 
