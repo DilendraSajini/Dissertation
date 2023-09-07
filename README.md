@@ -48,4 +48,4 @@ This web application allows users to perform histopathology binary classificatio
 
 1. Clone the repository:
    ```bash
-   git https://github.com/DilendraSajini/Dissertation.git
+   git clone https://github.com/DilendraSajini/Dissertation.git
