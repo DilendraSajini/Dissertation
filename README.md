@@ -16,3 +16,36 @@ The effectiveness of this strategy becomes unmistakably clear from its results. 
 <p align="center">
   <img  src="./static/architecture.PNG">
 </p>
+
+
+## Application Overview
+
+This web application allows users to perform histopathology binary classification using above  deep learning model. Follow these steps to use the app:
+
+1. **Access the Web App**
+
+   - Open the [Breast Cancer Classification Web App](https://dissertation-zejrc29dctwmetafszbaaw.streamlit.app/) using your web browser.
+
+2. **Upload Histopathology WSI (100X)**
+
+   - On the app's interface, you will find an option to upload a histopathology Whole Slide Image (WSI) captured at 100X magnification. Use the file uploader to select and upload your image.
+
+3. **Patch Extraction**
+
+   - After uploading the image, the app will perform patch extraction. It will divide the WSI into smaller patches, allowing you to view the details of different areas of the image.
+
+4. **Preprocessed Patches**
+
+   - The app will also display preprocessed versions of the patches, which have been prepared for classification.
+
+5. **Classification Output**
+
+   - The most critical step is the classification of the uploaded image. The deep learning model will analyze the patches and provide a binary classification output:
+      - If the model determines that the histopathology is "Benign," it will display "Benign."
+      - If the model determines that the histopathology is "Malignant," it will display "Malignant."
+
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DilendraSajini/Dissertation.git
